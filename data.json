@@ -1,0 +1,884 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hi!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Whats up?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "See ya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "See you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "See you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Ciao",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Thank you",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "Thanks",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "Thanks a lot",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "agree",
+        "entities": []
+      },
+      {
+        "text": "oh yeah",
+        "intent": "agree",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "agree",
+        "entities": []
+      },
+      {
+        "text": "of course",
+        "intent": "agree",
+        "entities": []
+      },
+      {
+        "text": "No",
+        "intent": "denied",
+        "entities": []
+      },
+      {
+        "text": "Never",
+        "intent": "denied",
+        "entities": []
+      },
+      {
+        "text": "Nope",
+        "intent": "denied",
+        "entities": []
+      },
+      {
+        "text": "Not at all",
+        "intent": "denied",
+        "entities": []
+      },
+      {
+        "text": "Not a chance",
+        "intent": "denied",
+        "entities": []
+      },
+      {
+        "text": "Ok",
+        "intent": "accept",
+        "entities": []
+      },
+      {
+        "text": "Check",
+        "intent": "accept",
+        "entities": []
+      },
+      {
+        "text": "I understand",
+        "intent": "confirm",
+        "entities": []
+      },
+      {
+        "text": "What is this site about?",
+        "intent": "website_information",
+        "entities": []
+      },
+      {
+        "text": "what is this for a page?",
+        "intent": "website_information",
+        "entities": []
+      },
+      {
+        "text": "what is jigsaw about?",
+        "intent": "website_information",
+        "entities": []
+      },
+      {
+        "text": "what is jigsaw?",
+        "intent": "website_information",
+        "entities": []
+      },
+      {
+        "text": "what can i do here?",
+        "intent": "website_information",
+        "entities": []
+      },
+      {
+        "text": "Jigsaw?",
+        "intent": "website_information",
+        "entities": []
+      },
+      {
+        "text": "Where am i?",
+        "intent": "website_information",
+        "entities": []
+      },
+      {
+        "text": "What can i do, if a person is missing from the list?",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "How can i add a person to the list?",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "can i add a person?",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "i am missing a person",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "i want to add a person",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "show me how to add a person to the list",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "there is a person missing from the list",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "Someone is missing",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "are all persons on the list?",
+        "intent": "add_person",
+        "entities": []
+      },
+      {
+        "text": "How can i use the maps?",
+        "intent": "use_map",
+        "entities": []
+      },
+      {
+        "text": "what can i do with the maps?",
+        "intent": "use_map",
+        "entities": []
+      },
+      {
+        "text": "What do the maps show me?",
+        "intent": "use_map",
+        "entities": []
+      },
+      {
+        "text": "maps?",
+        "intent": "use_map",
+        "entities": []
+      },
+      {
+        "text": "can you explain me the maps?",
+        "intent": "use_map",
+        "entities": []
+      },
+      {
+        "text": "What information can I find in the maps?",
+        "intent": "use_map",
+        "entities": []
+      },
+      {
+        "text": "explain the maps",
+        "intent": "use_map",
+        "entities": []
+      },
+      {
+        "text": "Activity map",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Activity",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "I want information about the activity map",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 29,
+            "end": 38,
+            "value": "activity ",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "can you tell me how to use the activity map ",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "activity ",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "the activity map please",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "activity ",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "tell me something about the activity map",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "activity ",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "persons residence map",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "persons residence",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "Explain the residence map to me",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "persons residence ",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "What is the persons residence map about?",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 12,
+            "end": 29,
+            "value": "persons residence",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "Can you tell me something about the social education map?",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 36,
+            "end": 52,
+            "value": "social education",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "social education map",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "social education ",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "tell me about the education map",
+        "intent": "choose_map",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "social education ",
+            "entity": "maptype"
+          }
+        ]
+      },
+      {
+        "text": "How can i use the custom search function?",
+        "intent": "use_custom_search",
+        "entities": []
+      },
+      {
+        "text": "Is there a custom search?",
+        "intent": "use_custom_search",
+        "entities": []
+      },
+      {
+        "text": "Can I filter my search results",
+        "intent": "use_custom_search",
+        "entities": []
+      },
+      {
+        "text": "how can I specify my search",
+        "intent": "use_custom_search",
+        "entities": []
+      },
+      {
+        "text": "I did not find what I was looking for",
+        "intent": "use_custom_search",
+        "entities": []
+      },
+      {
+        "text": "is there more than the default search",
+        "intent": "use_custom_search",
+        "entities": []
+      },
+      {
+        "text": "how can i get more or less results?",
+        "intent": "use_custom_search",
+        "entities": []
+      },
+      {
+        "text": "there is an error on the website",
+        "intent": "found_error",
+        "entities": []
+      },
+      {
+        "text": "I found an error",
+        "intent": "found_error",
+        "entities": []
+      },
+      {
+        "text": "What can i do, if i find an error?",
+        "intent": "found_error",
+        "entities": []
+      },
+      {
+        "text": "where can i report an error?",
+        "intent": "found_error",
+        "entities": []
+      },
+      {
+        "text": "is not that a mistake?",
+        "intent": "found_error",
+        "entities": []
+      },
+      {
+        "text": "you have errors on your site",
+        "intent": "found_error",
+        "entities": []
+      },
+      {
+        "text": "Who works on this project?",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "who has collected all this information`?",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "which persons work on this project?",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "which people are involved in this project?",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "Show me the people involved in the project",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "Is there a list of people involved in this project?",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "Which people are responsible for progress of this project?",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "who is involved in this website?",
+        "intent": "show_involved_persons",
+        "entities": []
+      },
+      {
+        "text": "What institutions or schools of social work existed back then?",
+        "intent": "show_list_of_facilities_and_schools",
+        "entities": []
+      },
+      {
+        "text": "Is there a list of facilities and schools?",
+        "intent": "show_list_of_facilities_and_schools",
+        "entities": []
+      },
+      {
+        "text": "is there a list of facilities",
+        "intent": "show_list_of_facilities_and_schools",
+        "entities": []
+      },
+      {
+        "text": "list of social education schools",
+        "intent": "show_list_of_facilities_and_schools",
+        "entities": []
+      },
+      {
+        "text": "what institutions are known",
+        "intent": "show_list_of_facilities_and_schools",
+        "entities": []
+      },
+      {
+        "text": "There is an overview of facilities and schools?",
+        "intent": "show_list_of_facilities_and_schools",
+        "entities": []
+      },
+      {
+        "text": "Can you show me all the schools?",
+        "intent": "show_list_of_facilities_and_schools",
+        "entities": []
+      },
+      {
+        "text": "What is the source of all the information?",
+        "intent": "show_source_of_information",
+        "entities": []
+      },
+      {
+        "text": "Where does the information come from?",
+        "intent": "show_source_of_information",
+        "entities": []
+      },
+      {
+        "text": "What are the sources of information?",
+        "intent": "show_source_of_information",
+        "entities": []
+      },
+      {
+        "text": "where can I see the sources?",
+        "intent": "show_source_of_information",
+        "entities": []
+      },
+      {
+        "text": "source disclosures",
+        "intent": "show_source_of_information",
+        "entities": []
+      },
+      {
+        "text": "from which sources the information is composed?",
+        "intent": "show_source_of_information",
+        "entities": []
+      },
+      {
+        "text": "How can I support this website?",
+        "intent": "offer_support",
+        "entities": []
+      },
+      {
+        "text": "i want to support this site",
+        "intent": "offer_support",
+        "entities": []
+      },
+      {
+        "text": "can i support you?",
+        "intent": "offer_support",
+        "entities": []
+      },
+      {
+        "text": "do you need help?",
+        "intent": "offer_support",
+        "entities": []
+      },
+      {
+        "text": "is it possible to support you?",
+        "intent": "offer_support",
+        "entities": []
+      },
+      {
+        "text": "Can I help you?",
+        "intent": "offer_support",
+        "entities": []
+      },
+      {
+        "text": "Can the contact be made by email only?",
+        "intent": "contact_method",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "email ",
+            "entity": "contacttype"
+          }
+        ]
+      },
+      {
+        "text": "How can i contact you?",
+        "intent": "contact_method",
+        "entities": []
+      },
+      {
+        "text": "is there more than the email to get in contact?",
+        "intent": "contact_method",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "email ",
+            "entity": "contacttype"
+          }
+        ]
+      },
+      {
+        "text": "Is there a form to get in contact?",
+        "intent": "contact_method",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "contactform ",
+            "entity": "contacttype"
+          }
+        ]
+      },
+      {
+        "text": "how can i get in touch with you?",
+        "intent": "contact_method",
+        "entities": []
+      },
+      {
+        "text": "can i write you an email?",
+        "intent": "contact_method",
+        "entities": []
+      },
+      {
+        "text": "can i contact other people?",
+        "intent": "contact_method",
+        "entities": []
+      },
+      {
+        "text": "What requirements are placed on the authors by the side?",
+        "intent": "requirements_site_to_author",
+        "entities": []
+      },
+      {
+        "text": "what duty is imposed on the authors",
+        "intent": "requirements_site_to_author",
+        "entities": []
+      },
+      {
+        "text": "what do authors have to adhere to?",
+        "intent": "requirements_site_to_author",
+        "entities": []
+      },
+      {
+        "text": "There are restrictions for authors",
+        "intent": "requirements_site_to_author",
+        "entities": []
+      },
+      {
+        "text": "content requirements for authors?",
+        "intent": "requirements_site_to_author",
+        "entities": []
+      },
+      {
+        "text": "And who gets access to the page?",
+        "intent": "who_is_possible_user",
+        "entities": []
+      },
+      {
+        "text": "who will get access to this website?",
+        "intent": "who_is_possible_user",
+        "entities": []
+      },
+      {
+        "text": "what kind of people are going to use this site?",
+        "intent": "who_is_possible_user",
+        "entities": []
+      },
+      {
+        "text": "what are the possible users of  jigsaw?",
+        "intent": "who_is_possible_user",
+        "entities": []
+      },
+      {
+        "text": "who will use jigsaw?",
+        "intent": "who_is_possible_user",
+        "entities": []
+      },
+      {
+        "text": "what is the target group of Jigsaw?",
+        "intent": "who_is_possible_user",
+        "entities": []
+      },
+      {
+        "text": "Should a certain target group be addressed with this page?",
+        "intent": "who_is_possible_user",
+        "entities": []
+      },
+      {
+        "text": "Are there different types of access to this site?",
+        "intent": "ask_for_access_types",
+        "entities": []
+      },
+      {
+        "text": "What sorts of access types are there?",
+        "intent": "ask_for_access_types",
+        "entities": []
+      },
+      {
+        "text": "Do different people get different types of access?",
+        "intent": "ask_for_access_types",
+        "entities": []
+      },
+      {
+        "text": "Are there different types of access? For example, for students?",
+        "intent": "ask_for_access_types",
+        "entities": []
+      },
+      {
+        "text": "Can I get another access as a lecturer or research institute or are they all standardized?",
+        "intent": "ask_for_access_types",
+        "entities": []
+      },
+      {
+        "text": "Do i have to verify me as an author?",
+        "intent": "ask_duty_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "do I have to verify myself?",
+        "intent": "ask_duty_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "Is there a duty to verify?",
+        "intent": "ask_duty_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "Can I set content without being verified?",
+        "intent": "ask_duty_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "is the verification required?",
+        "intent": "ask_duty_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "Can i verify myself if i want to?",
+        "intent": "ask_voluntary_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "i want to verify myself as an author.",
+        "intent": "ask_voluntary_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "is there a way to verify myself?",
+        "intent": "ask_voluntary_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "can i verify myself?",
+        "intent": "ask_voluntary_verify_as_author",
+        "entities": []
+      },
+      {
+        "text": "Are there any people activly expanding the site?",
+        "intent": "people_expand_website ",
+        "entities": []
+      },
+      {
+        "text": "will the website continue to be expanded?",
+        "intent": "people_expand_website ",
+        "entities": []
+      },
+      {
+        "text": "who expands the website?",
+        "intent": "people_expand_website ",
+        "entities": []
+      },
+      {
+        "text": "who is responsible for the expansion of the website",
+        "intent": "people_expand_website ",
+        "entities": []
+      },
+      {
+        "text": "What is the claim of the authors?",
+        "intent": "requirements_author_to_site",
+        "entities": []
+      },
+      {
+        "text": "what do the authors insist on?",
+        "intent": "requirements_author_to_site",
+        "entities": []
+      },
+      {
+        "text": "what about copyright",
+        "intent": "requirements_author_to_site",
+        "entities": []
+      },
+      {
+        "text": "on what rights can authors call themselves?",
+        "intent": "requirements_author_to_site",
+        "entities": []
+      },
+      {
+        "text": "are the rights of the authors respected?",
+        "intent": "requirements_author_to_site",
+        "entities": []
+      },
+      {
+        "text": "Rights for authors?",
+        "intent": "requirements_author_to_site",
+        "entities": []
+      },
+      {
+        "text": "Which universities are involved in this project?",
+        "intent": "show_involved_universities",
+        "entities": []
+      },
+      {
+        "text": "involved universities?",
+        "intent": "show_involved_universities",
+        "entities": []
+      },
+      {
+        "text": "is there a list of universities that are resonsible for jigsaw?",
+        "intent": "show_involved_universities",
+        "entities": []
+      },
+      {
+        "text": "which persons of which universities are involved in the project?",
+        "intent": "show_involved_universities",
+        "entities": []
+      },
+      {
+        "text": "How are the data checked?",
+        "intent": "ask_for_data_check",
+        "entities": []
+      },
+      {
+        "text": "Will the content be checked before it gets published?",
+        "intent": "ask_for_data_check",
+        "entities": []
+      },
+      {
+        "text": "content check?",
+        "intent": "ask_for_data_check",
+        "entities": []
+      },
+      {
+        "text": "can i upload anything i want?",
+        "intent": "ask_for_data_check",
+        "entities": []
+      },
+      {
+        "text": "will anything directly be published?",
+        "intent": "ask_for_data_check",
+        "entities": []
+      },
+      {
+        "text": "how long will it take to check my data?",
+        "intent": "data_check_time",
+        "entities": []
+      }
+    ]
+  }
+}
